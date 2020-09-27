@@ -1,0 +1,15 @@
+{
+    "name": "V2Ray",
+    "description": "Deploy V2ray on Heroku.",
+    "keywords": ["V2Ray"],
+    "env": {
+        "CONFIG_JSON": {
+            "description": "V2Ray CONFIG_JSON",
+            "value": " {"inbounds":[{"port":8080,"protocol":"vmess","settings":{"clients":[{"id":"822ebcae-8817-4db3-88d9-8612c3037f3f","alterId":4}]},"streamSettings":{"network":"ws","wsSettings":{"path":"/RtjgZcXZrQmbBUkO"}}}],"outbounds":[{"protocol":"freedom","settings":{}}]}"
+        }
+
+    },
+    "website": "https://github.com//testnobody/herov2",
+    "repository": "https://github.com//testnobody/herov2",
+    "stack": "container"
+}
